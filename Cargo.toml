@@ -1,0 +1,11 @@
+[package]
+name = "fe10msg"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.2.7", features = ["derive"] }
+indexmap = { version = "2.0.0", features = ["serde"] }
+mila = { git = "https://github.com/thane98/mila/" }
+serde = { version = "1.0.169", features = ["derive"] }
+serde_yaml = "0.9.22"
